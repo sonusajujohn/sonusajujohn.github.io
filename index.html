@@ -6,6 +6,8 @@
     <title>Sonu Saju John | MERN Stack Developer</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS - Animate On Scroll Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,6 +25,7 @@
                 <a href="#skills">Skills</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
                 <a href="mailto:sonujohnsaju@gmail.com?subject=Interested in Your Portfolio" class="btn-contact">Contact</a>
             </div>
             <button class="mobile-menu-btn">
@@ -34,16 +37,16 @@
    <!-- Hero Section -->
 <section class="hero fade-in-up">
     <div class="container hero-content">
-        <div class="hero-text fade-in-up delay-100">
+        <div class="hero-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
             <span class="status-badge">Available for Work</span>
             <h1>Hi, I'm <br><span class="gradient-text">Sonu Saju John</span></h1>
             <h2>
                 <span class="typewriter">MERN Stack Developer</span> <br>
-                Graduate Apprentice Trainee <br>
-                (Web App Developer) @ VSSC, ISRO
+                Fresher Graduate <br>
+                (Certified Full Stack Developer)
             </h2>
 
-            <p>Full-stack MERN developer and Graduate Apprentice Trainee at VSSC ISRO, focused on building secure, scalable, and user-friendly web applications. I enjoy transforming ideas into real-world digital solutions.</p>
+            <p>Full-stack MERN developer with practical experience from my apprenticeship training at VSSC ISRO. Recently completed my Graduate Apprentice Training (Feb 2026) and am now actively seeking job opportunities to build secure, scalable, and user-friendly web applications.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn-primary">View Projects</a>
                 <a href="resume/Sonu_Saju_John_Resume.pdf" target="_blank" class="btn-secondary">
@@ -56,7 +59,7 @@
                 <a href="mailto:sonujohnsaju@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
-        <div class="hero-image fade-in-up delay-200">
+        <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <div class="avatar-container">
                 <div class="avatar-glow"></div>
                 <img src="ssjgen.png" class="hero-avatar" alt="Sonu Avatar">
@@ -67,27 +70,27 @@
 
 
     <!-- About Section -->
-<section id="about" class="section fade-in-up delay-300">
+<section id="about" class="section" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
         <div class="section-title">
             <h2>About Me</h2>
             <div class="section-line"></div>
         </div>
-        <div class="glass-card about-grid">
+        <div class="glass-card about-grid" data-aos="zoom-in" data-aos-duration="800">
 
-            <p style="margin-bottom: 1.5rem; color: var(--text); font-weight:500;">
+            <p style="margin-bottom: 1.5rem; color: var(--text); font-weight:500; text-align: justify;">
                 Passionate Full-Stack MERN Developer with a strong foundation in modern web technologies and real-world project experience.
             </p>
 
-            <p style="margin-bottom: 1.5rem; color: var(--text);">
-                I am a Computer Science Engineering graduate currently working as an <strong class="text-primary">Graduate Apprentice Trainee at VSSC, ISRO</strong>. My work focuses on building secure intranet-based applications, where I handle UI development, backend APIs, workflow automation, and system reliability.
+            <p style="margin-bottom: 1.5rem; color: var(--text); text-align: justify;">
+                I am a Computer Science Engineering graduate who recently completed my apprenticeship as a <strong class="text-primary">Graduate Apprentice at VSSC, ISRO</strong> (completed Feb 6, 2026). During my training, I gained hands-on experience in building secure intranet-based applications, handling UI development, backend APIs, workflow automation, and system reliability.
             </p>
 
-            <p style="color: var(--text); margin-bottom:1.5rem;">
+            <p style="color: var(--text); margin-bottom:1.5rem; text-align: justify;">
                 I enjoy working across the full development stack — from designing responsive user interfaces to implementing robust backend services and optimizing database performance.
             </p>
 
-            <p style="color: var(--text);">
+            <p style="color: var(--text); text-align: justify;">
                 I thrive on solving complex problems and learning new technologies. Whether it's optimizing a database query or crafting a pixel-perfect UI, I enjoy every aspect of the development lifecycle.
             </p>
             
@@ -113,7 +116,7 @@
     </div>
 </section>
 <!-- Skills Section -->
-<section id="skills" class="section">
+<section id="skills" class="section" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
         <div class="section-title">
             <h2>Tech Stack</h2>
@@ -126,7 +129,7 @@
         <div class="skills-grid">
 
             <!-- Frontend -->
-            <div class="glass-card skill-card">
+            <div class="glass-card skill-card" data-aos="flip-left" data-aos-duration="800">
                 <div class="skill-icon" style="color: #60a5fa; background: rgba(96, 165, 250, 0.1);">
                     <i class="fas fa-code"></i>
                 </div>
@@ -142,7 +145,7 @@
             </div>
 
             <!-- Backend -->
-            <div class="glass-card skill-card">
+            <div class="glass-card skill-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="100">
                 <div class="skill-icon" style="color: #4ade80; background: rgba(74, 222, 128, 0.1);">
                     <i class="fas fa-server"></i>
                 </div>
@@ -159,7 +162,7 @@
             </div>
 
             <!-- Database -->
-            <div class="glass-card skill-card">
+            <div class="glass-card skill-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="200">
                 <div class="skill-icon" style="color: #c084fc; background: rgba(192, 132, 252, 0.1);">
                     <i class="fas fa-database"></i>
                 </div>
@@ -172,7 +175,7 @@
             </div>
 
             <!-- Tools -->
-            <div class="glass-card skill-card">
+            <div class="glass-card skill-card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="300">
                 <div class="skill-icon" style="color: #f472b6; background: rgba(244, 114, 182, 0.1);">
                     <i class="fas fa-tools"></i>
                 </div>
@@ -193,79 +196,112 @@
  </section>
 
 <!-- Experience Section -->
-<section id="experience" class="section">
+<section id="experience" class="section" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
         <div class="section-title">
             <h2>Experience</h2>
             <div class="section-line"></div>
         </div>
 
-        <div class="timeline">
+        <div class="experience-grid">
             <!-- Item 1 -->
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="glass-card timeline-content">
-                    <div class="timeline-header">
-                        <div>
-                            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--white);">
-                                Apprentice Trainee – Web Application Development
-                            </h3>
-                            <p style="color: var(--primary); font-weight: 500;">
-                                Vikram Sarabhai Space Centre (VSSC), ISRO
-                                
-                            </p>
-                        </div>
-                        <span class="timeline-date">Feb 2025 – Present</span>
+            <div class="experience-card" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="100">
+                <div class="exp-card-header">
+                    <div class="exp-icon-wrapper">
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <p style="color: var(--text);">FLIGHTBYTES intranet app: feature development across frontend and backend, performance tuning, and secure deployment.</p>
-                    <ul style="color: var(--text); margin-left: 18px;">
-                        <li>Built React components and refined UX for key modules</li>
-                        <li>Developed Node/Express APIs and optimized queries</li>
-                        <li>Supported secure intranet deployment and documentation</li>
-                    </ul>
+                    <div class="exp-header-content">
+                        <h3>Graduate Apprentice Trainee</h3>
+                        <p class="exp-role">Web Application Development</p>
+                    </div>
+                </div>
+                
+                <div class="exp-company-badge">
+                    <i class="fas fa-building"></i>
+                    Vikram Sarabhai Space Centre (VSSC), ISRO
+                </div>
+                
+                <div class="exp-date-badge">
+                    <i class="fas fa-calendar-alt"></i>
+                    Feb 2025 – Feb 2026
+                </div>
+                
+                <p class="exp-description">Involved in development, database maintenance, testing, and enhancement of the FLIGHTBYTES intranet web application for flight data archival and retrieval.</p>
+                
+                <ul class="exp-highlights">
+                    <li>Developed UI modernization and frontend enhancements, improving usability and visual consistency</li>
+                    <li>Designed and implemented user-specific "Saved List" feature for quick access to frequently used parameter datasets</li>
+                    <li>Created an additional graphical plotting interfaces for comparative analysis and visualization of flight parameters</li>
+                    <li>Upgraded "Galleries" section to reduce project folder size and maintain images in a structured manner</li>
+                    <li>Contributed to mission data integration, database maintenance, and modification of mission datasets</li>
+                    <li>Worked with Java-based web technologies, relational databases, and Python-based scientific data visualization tools</li>
+                    <li>Gained exposure to professional software development and secure handling of mission-related data in an R&D environment</li>
+                </ul>
+                
+                <div class="exp-tech-tags">
+                    <span class="exp-tag">HTML</span>
+                    <span class="exp-tag">CSS</span>
+                    <span class="exp-tag">SQL</span>
+                    <span class="exp-tag">JavaScript</span>
+                    <span class="exp-tag">Java</span>
+                    <span class="exp-tag">Python</span>
+                    <span class="exp-tag">Web Development</span>
+                    <span class="exp-tag">Database Management</span>
                 </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="glass-card timeline-content">
-                    <div class="timeline-header">
-                        <div>
-                            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--white);">Web Developer Intern</h3>
-                            <p style="color: var(--primary); font-weight: 500;">TrackGenesis • Technopark, Trivandrum</p>
-                        </div>
-                        <span class="timeline-date">Nov 2024 – Dec 2024</span>
+            
+            <!-- Item 2 -->
+            <div class="experience-card" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="200">
+                <div class="exp-card-header">
+                    <div class="exp-icon-wrapper" style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.2), rgba(59, 130, 246, 0.2)); color: #3b82f6;">
+                        <i class="fas fa-code"></i>
                     </div>
-                    <p style="color: var(--text);">Built responsive websites, integrated REST APIs, and delivered MongoDB-backed backends with reusable React components.</p>
-                    <ul style="color: var(--text); margin-left: 18px;">
-                        <li>Designed scalable UIs with reusable React components</li>
-                        <li>Integrated REST APIs and optimized MongoDB models</li>
-                        <li>Validated endpoints with Postman and ensured reliability</li>
-                    </ul>
+                    <div class="exp-header-content">
+                        <h3>Web Developer Intern</h3>
+                        <p class="exp-role">Full Stack Development</p>
+                    </div>
                 </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="glass-card timeline-content">
-                    <div class="timeline-header">
-                        <div>
-                            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--white);">FULL STACK DEVELOPMENT – MERN (Certification)</h3>
-                            <p style="color: var(--primary); font-weight: 500;">ICT Academy of Kerala • Technopark, Trivandrum</p>
-                        </div>
-                        <span class="timeline-date">Aug 2024 – Nov 2024</span>
-                    </div>
-                    <p style="color: var(--text);">Training focused on building production-ready web apps using MongoDB, Express.js, React.js, and Node.js.</p>
-                    <ul style="color: var(--text); margin-left: 18px;">
-                        <li>Designed RESTful APIs and integrated third‑party services</li>
-                        <li>Implemented JWT auth and role-based access control</li>
-                        <li>Collaborated using Git/GitHub with agile practices</li>
-                    </ul>
+                
+                <div class="exp-company-badge">
+                    <i class="fas fa-building"></i>
+                    TrackGenesis • Technopark, Trivandrum
+                </div>
+                
+                <div class="exp-date-badge">
+                    <i class="fas fa-calendar-alt"></i>
+                    Nov 2024 – Dec 2024
+                </div>
+                
+                <p class="exp-description">Built responsive websites, integrated REST APIs, and delivered MongoDB-backed backends with reusable React components using Express.js framework with role-based access control.</p>
+                
+                <ul class="exp-highlights">
+                    <li>Designed and developed responsive UIs with reusable React.js components using HTML5 & CSS3</li>
+                    <li>Built scalable backend services with Node.js and Express.js framework with RESTful APIs</li>
+                    <li>Implemented role-based access control system with Admin, User, and SuperAdmin roles</li>
+                    <li>Designed and optimized MongoDB database models for efficient data management</li>
+                    <li>Implemented JWT token-based authentication for secure API endpoints and user sessions</li>
+                    <li>Created comprehensive admin and superadmin dashboards for viewing platform statistics and analytics</li>
+                    <li>Validated and tested all endpoints using Postman and ensured system reliability</li>
+                </ul>
+                
+                <div class="exp-tech-tags">
+                    <span class="exp-tag">React.js</span>
+                    <span class="exp-tag">Node.js</span>
+                    <span class="exp-tag">Express.js</span>
+                    <span class="exp-tag">MongoDB</span>
+                    <span class="exp-tag">HTML5</span>
+                    <span class="exp-tag">CSS3</span>
+                    <span class="exp-tag">JWT</span>
+                    <span class="exp-tag">Role-Based Auth</span>
+                    <span class="exp-tag">REST APIs</span>
+                    <span class="exp-tag">Dashboard</span>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- Projects Section -->
-<section id="projects" class="section">
+<section id="projects" class="section" data-aos="fade-up" data-aos-duration="800">
     <div class="container">
         <div class="section-title">
             <h2>Featured Projects</h2>
@@ -278,27 +314,7 @@
         <div class="projects-grid">
 
             <!-- Project 1 -->
-            <div class="glass-card project-card">
-                <img src="images/flight.jpg" class="project-img-placeholder" alt="FLIGHTBYTES">
-                <div class="project-info">
-                    <h3>FLIGHTBYTES</h3>
-                    <p class="project-role">Intranet Web Application</p>
-                    <p class="project-desc">
-                        Secure intranet web application developed at VSSC ISRO for internal workflow automation and data handling.
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">Javascript</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">Java</span>
-                        <span class="tag">Python</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="glass-card project-card">
+            <div class="glass-card project-card" data-aos="zoom-in-up" data-aos-duration="800">
                 <img src="images/shoztop.jpg" class="project-img-placeholder" alt="SHOZTOP">
                 <div class="project-info">
                     <h3>SHOZTOP</h3>
@@ -319,8 +335,8 @@
                 </div> 
             </div>
 
-            <!-- Project 3 -->
-            <div class="glass-card project-card">
+            <!-- Project 2 -->
+            <div class="glass-card project-card" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="100">
                 <img src="images/cinetick.jpg" class="project-img-placeholder" alt="CINETICK">
                 <div class="project-info">
                     <h3>CINETICK</h3>
@@ -342,7 +358,7 @@
             </div>
 
             <!-- Project 4 -->
-            <div class="glass-card project-card">
+            <div class="glass-card project-card" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="200">
                 <img src="images/chaindocs.jpeg" class="project-img-placeholder" alt="CHAINDOCS">
                 <div class="project-info">
                     <h3>CHAINDOCS</h3>
@@ -359,7 +375,7 @@
             </div>
 
             <!-- Project 5 -->
-            <div class="glass-card project-card">
+            <div class="glass-card project-card" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300">
                 <img src="images/hms.jpg" class="project-img-placeholder" alt="HMS">
                 <div class="project-info">
                     <h3>Hospital Management System</h3>
@@ -376,7 +392,7 @@
             </div>
 
             <!-- Project 6 -->
-            <div class="glass-card project-card">
+            <div class="glass-card project-card" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="400">
                 <img src="images/safehome.jpg" class="project-img-placeholder" alt="SafeHome">
                 <div class="project-info">
                     <h3>SafeHome</h3>
@@ -393,6 +409,78 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="section" data-aos="fade-up" data-aos-duration="800">
+    <div class="container">
+        <div class="section-title">
+            <h2>Certifications & Achievements</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+            <!-- Certification 1 -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+                <div class="timeline-dot"></div>
+                <div class="glass-card timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--white);">
+                                Graduate Apprenticeship Completion Certificate
+                            </h3>
+                            <p style="color: var(--primary); font-weight: 500;">
+                                Vikram Sarabhai Space Centre (VSSC), ISRO
+                            </p>
+                        </div>
+                        <span class="timeline-date">Feb 2026</span>
+                    </div>
+                    <p style="color: var(--text); margin-bottom: 1rem;">
+                        Certified for successful completion of 12-month Graduate Apprentice Training in Web Application Development with hands-on experience in mission-critical systems.
+                    </p>
+                    <p style="color: var(--text-muted); font-weight: 500; margin-bottom: 0.75rem;">Key Contributions:</p>
+                    <ul style="color: var(--text); margin-left: 18px;">
+                        <li>Development and enhancement of FLIGHTBYTES intranet application for post-flight data management</li>
+                        <li>UI modernization and frontend improvements for enhanced user experience</li>
+                        <li>Implementation of "Saved List" feature and Galleries optimization</li>
+                        <li>Data visualization and flight parameter analysis tools development</li>
+                        <li>Mission data integration and database management for PSLV and LVM3 missions</li>
+                        <li>Proficiency in Java, Python, JavaScript, SQL, and secure intranet deployment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+                <div class="timeline-dot"></div>
+                <div class="glass-card timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--white);">
+                                Certified MERN Stack Developer
+                            </h3>
+                            <p style="color: var(--primary); font-weight: 500;">
+                                ICT Academy of Kerala • Technopark, Trivandrum
+                            </p>
+                        </div>
+                        <span class="timeline-date">Nov 2024</span>
+                    </div>
+                    <p style="color: var(--text); margin-bottom: 1rem;">
+                        Completed comprehensive Full Stack Development training with focus on MongoDB, Express.js, React.js, and Node.js technologies for production-ready web applications.
+                    </p>
+                    <p style="color: var(--text-muted); font-weight: 500; margin-bottom: 0.75rem;">Training Coverage:</p>
+                    <ul style="color: var(--text); margin-left: 18px;">
+                        <li>RESTful API design and third-party service integration</li>
+                        <li>JWT authentication and role-based access control implementation</li>
+                        <li>Modern React.js component architecture and state management</li>
+                        <li>MongoDB schema design and query optimization</li>
+                        <li>Git/GitHub collaboration and agile development practices</li>
+                        <li>Responsive design and modern UI/UX principles</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -432,7 +520,16 @@
 </footer>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            offset: 100,
+            once: false,
+            easing: 'ease-in-out-cubic'
+        });
+        
         // Mobile Menu Toggle
         const mobileBtn = document.querySelector('.mobile-menu-btn');
         const navLinks = document.querySelector('.nav-links');
@@ -461,21 +558,6 @@
                 }
             });
         });
-        
-        const timelineItems = document.querySelectorAll('.timeline-item');
-        if (timelineItems.length) {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('active');
-                    } else {
-                        entry.target.classList.remove('active');
-                    }
-                });
-            }, { root: null, threshold: 0.5 });
-            
-            timelineItems.forEach(item => observer.observe(item));
-        }
     </script>
 </body>
 </html>
